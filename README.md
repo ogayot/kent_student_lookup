@@ -8,7 +8,15 @@ the uid or last name given.
 * ldapsearch is needed for the software to run properly. It is
 often provided in the package `openldap'
 
-usage: 
+usage
+-----
+
+    $ kent_student_lookup <uid>
+or
+    $ kent_student_lookup <last_name>
+
+examples
+--------
 
     $ kent_student_lookup Gayot
 
