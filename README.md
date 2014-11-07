@@ -12,7 +12,9 @@ usage
 -----
 
     $ kent_student_lookup <uid>
+
 or
+
     $ kent_student_lookup <last_name>
 
 examples
