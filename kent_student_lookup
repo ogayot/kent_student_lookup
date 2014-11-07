@@ -21,4 +21,4 @@ if [ $# -ne 1 ]; then
     exit 1;
 fi;
 
-ldapsearch -h ldap.id -x "(|(sn=$1)(uid=$1))" -b ou=students,o=kent.ac.uk,o=uni
+ldapsearch -H ldap://ldap.id -x "(|(sn=$1)(uid=$1))" -b ou=students,o=kent.ac.uk,o=uni
