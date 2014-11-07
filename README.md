@@ -6,7 +6,15 @@ software will dig and find the entry of a student associated to
 the uid or last name given.
 
 * ldapsearch is needed for the software to run properly. It is
-often provided by the package `openldap'
+often provided by the package `openldap' or `ldap-utils'
+
+* to run properly, you need to be able to access the host ldap.id
+i.e. you have to be either connected to the campus network or connected behind
+the VPN
+
+Instructions to install and configure the VPN can be found here:
+
+http://www.kent.ac.uk/itservices/home/
 
 usage
 -----
