@@ -14,6 +14,7 @@ usage:
 
 <stdout>
 
+```
 # extended LDIF
 #
 # LDAPv3
@@ -47,3 +48,4 @@ unikentdepartment: comp
 # search result
 search: 2
 result: 0 Success
+```
