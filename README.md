@@ -6,7 +6,7 @@ software will dig and find the entry of a student associated to
 the uid or last name given.
 
 * ldapsearch is needed for the software to run properly. It is
-often provided by the package `openldap' or `ldap-utils'
+often provided by the package _openldap_ or _ldap-utils_
 
 * to run properly, you need to be able to access the host ldap.id
 i.e. you have to be either connected to the campus network or connected behind
